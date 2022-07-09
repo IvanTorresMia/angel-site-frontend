@@ -1,12 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
 
 :root {
-  --secondary-blue: #19ade6;
+  --primary-blue: #19ade6;
   --primary-black: rgba(78, 78, 78, 0.7);
   --primary-white: #fbfbfb;
   --primary-gray: rgb(238, 238, 238);
   --secondary-black: rgb(33,37,41);
   --secondary-blue: rgb(9,95,214);
+  --font-family:  font-family: "Ubuntu", sans-serif;
 }
 
 body {
@@ -39,7 +40,7 @@ nav {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  height: 75vh;
   position: relative;
   opacity: 98%;
 }
@@ -72,13 +73,61 @@ nav {
   font-weight: bold;
 }
 
-/* .header > .layer > .header-copy > button {
-  background-color: var(--secondary-blue);
-  border: none;
+/* ******************** Comp2 ******************** */
+
+.comp2 {
+  text-align: center;
+  padding: 60px 0;
+  font-family: var(--font-family);
+  background-color: var(--secondary-black);
   color: var(--primary-white);
-  padding: 10px 20px 10px 20px;
-  border-radius: 30px;
-} */
+}
+
+.comp2 > h2 {
+  font-size: 38px;
+  font-weight: bolder;
+  width: 700px;
+  margin: auto;
+}
+
+.comp2-text > a {
+  color: var(--secondary-blue) !important;
+  text-decoration: underline !important;
+}
+
+
+.comp2-text {
+  width: 750px;
+  margin: 40px auto 0px auto;
+}
+
+/* ******************** Comp3******************** */
+
+.comp3 {
+  padding: 60px 0;
+  background: linear-gradient(to bottom, var(--secondary-blue) 0%,var(--secondary-blue) 40%,var(--secondary-blue) 40%,white 40%,white 100%); /* W3C */
+}
+
+.comp3-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 1300px;
+  margin: auto;
+  padding: 60px;
+}
+
+.comp3-copy {
+  width: 1090px;
+  margin: auto;
+  padding-right: 30%;
+}
+
+.comp3-copy > h2 {
+  font-size: 38px;
+  font-weight: bolder;
+}
+
+
 
 /* ******************** Programs ******************** */
 

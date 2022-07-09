@@ -14,13 +14,14 @@ import AdminProfile from "./Admin/AdminProfile/AdminProfile";
 import AdminHome from "./Admin/AdminHome/AdminHome";
 import ViewOne from "./Admin/ViewOne";
 import SignUpAdmin from "./Admin/SignUpAdmin";
+import HomePage from "./Components/HomePage";
 
 function App() {
   return (
     <div>
       <Routes>
         <Route path="/" exact element={<Home />}>
-          <Route index element={<Header />} />
+          <Route index element={<HomePage />} />
           <Route
             path="programs"
             element={<Programs programsData={programsData} />}
