@@ -23,8 +23,7 @@ const Comp3 = () => {
             style={{
               width: "30rem",
               textAlign: "center",
-              margin: " 40px auto",
-              boxShadow: "0 3px 3px rgba(0,0,0,0.2)",
+              margin: " 40px auto"
             }}
           >
             <Card.Img
