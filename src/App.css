@@ -104,7 +104,8 @@ nav {
 
 .comp3 {
   padding: 60px 0;
-  background: linear-gradient(to bottom, var(--secondary-blue) 0%,var(--secondary-blue) 40%,var(--secondary-blue) 40%,white 40%,white 100%); /* W3C */
+  /* background: linear-gradient(to bottom, var(--secondary-blue) 0%,var(--secondary-blue) 40%,var(--secondary-blue) 40%,white 40%,white 100%); W3C */
+  background-color: var(--secondary-blue);
 }
 
 .comp3-cards {
@@ -127,6 +128,7 @@ nav {
   width: 1090px;
   margin: auto;
   padding-right: 30%;
+  color: var(--primary-white)
 }
 
 .comp3-copy > h2 {
