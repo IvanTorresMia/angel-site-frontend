@@ -117,6 +117,10 @@ nav {
   padding: 60px;
 }
 
+.comp3-cards > div > .card-body > .card-title {
+  color: var(--secondary-blue);
+}
+
 .comp3-cards > div {
   box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
   0 2px 2px rgba(0,0,0,0.12), 
@@ -141,6 +145,24 @@ nav {
 
 /* ******************** Comp4 ******************** */
 
+.comp4 {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.comp4 > h2 {
+  color: var(--secondary-blue);
+  font-weight: bolder;
+}
+
+.comp4-copy {
+  width: 800px;
+  margin: auto;
+}
+
+.comp4-copy > span {
+  color: var(--primary-black);
+}
 
 
 
