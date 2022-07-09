@@ -104,6 +104,7 @@ nav {
 
 .comp3 {
   padding: 60px 0;
+  /* incase I want to go back to half colors */
   /* background: linear-gradient(to bottom, var(--secondary-blue) 0%,var(--secondary-blue) 40%,var(--secondary-blue) 40%,white 40%,white 100%); W3C */
   background-color: var(--secondary-blue);
 }
