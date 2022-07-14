@@ -32,7 +32,7 @@ function App() {
           <Route path="beast-mode" element={<BeastMode />} />
           <Route path="contact" element={<Contact />} />
           <Route path="about" element={<AboutMe />} />
-          <Route path="login" element={<AdminLogIn />} />
+          <Route path="login-admin" element={<AdminLogIn />} />
           <Route path="signup" element={<SignUp />} />
           <Route path="signup-admin" element={<SignUpAdmin />} />
         </Route>

@@ -33,6 +33,10 @@ nav {
   }
 }
 
+.user-icon {
+  margin: 0px 20px 0px 10px;
+}
+
 /* ******************** Header ******************** */
 .header {
   background-image: url("./assets/personal-training.jpg");
