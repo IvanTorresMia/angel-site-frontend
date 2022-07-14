@@ -217,6 +217,54 @@ nav {
   font-size: 14px;
 }
 
+
+
+/* ******************** About Me ******************** */
+
+.aboutme-content {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 60px auto 80px;
+
+}
+
+.aboutme-image {
+  width: 400px;
+}
+
+.aboutme-image > img {
+  width: 100%;
+}
+
+.aboutme-copy {
+  text-align: left;
+  width: 50%;
+}
+
+.aboutme-copy > h2 {
+  color: var(--secondary-blue);
+}
+
+.aboutme-copy > button {
+  color: var(--secondary-blue);
+  outline: 1px solid var(--secondary-blue);
+  border: none;
+  background-color: var(--primary-white);
+  border-radius: 20px;
+  /* top right bottom left */
+  padding: 10px 20px 10px 20px;
+  transition: 0.3s;
+}
+
+.aboutme-copy > button:hover {
+  color: var(--primary-white);
+  outline: 1px solid var(--primary-white);
+  background-color: var(--secondary-blue);
+  transition: 0.3s;
+}
+
+
 /* ******************** Contact ******************** */
 
 .contact-wrapper > form {

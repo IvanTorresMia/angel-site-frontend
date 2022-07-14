@@ -31,6 +31,9 @@ const Home = () => {
                 Programs
               </Link>
 
+              <Link className="nav-link" to="/about">
+               About Me
+              </Link>
               <Link className="nav-link" to="/contact">
                 Contact Me
               </Link>

@@ -15,6 +15,7 @@ import AdminHome from "./Admin/AdminHome/AdminHome";
 import ViewOne from "./Admin/ViewOne";
 import SignUpAdmin from "./Admin/SignUpAdmin";
 import HomePage from "./Components/HomePage";
+import AboutMe from "./Components/AboutMe";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="moderate" element={<Moderate />} />
           <Route path="beast-mode" element={<BeastMode />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="about" element={<AboutMe />} />
           <Route path="login" element={<AdminLogIn />} />
           <Route path="signup" element={<SignUp />} />
           <Route path="signup-admin" element={<SignUpAdmin />} />
