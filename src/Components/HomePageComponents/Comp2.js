@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "react-bootstrap/esm/Button";
+import { Link } from 'react-router-dom'
 
 const Comp2 = () => {
   return (
@@ -30,10 +31,10 @@ const Comp2 = () => {
           1500s, when an unknown printer took a galley of type and scrambled it
           to make a type specimen book
         </p>
-        <a>Learn More About Our Programs</a>
+        <Link to="/programs">Learn More About Our Programs</Link>
         <br/>
         <br/>
-        <Button>About Me</Button>
+        <Link to="/about"><Button>About Me</Button></Link>
       </div>
     </div>
   );

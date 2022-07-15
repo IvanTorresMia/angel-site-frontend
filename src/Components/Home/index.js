@@ -3,6 +3,7 @@ import Stack from "react-bootstrap/Stack";
 import Footer from "../Footer";
 import Dropdown from "react-bootstrap/Dropdown";
 import { Outlet, Link } from "react-router-dom";
+import homeImage from "../../assets/TorresFitness.png";
 
 const Home = () => {
   return (
@@ -10,7 +11,7 @@ const Home = () => {
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            Torres Fitness
+           <Link className="home-link" to="/">Torres Fitness</Link>
           </a>
           <button
             className="navbar-toggler"
@@ -60,10 +61,14 @@ const Home = () => {
 
             <Dropdown.Menu>
               <Dropdown.Item>
-                <Link to="/login-admin">Admin User</Link>
+                <Link className="user-icon-link" to="/login-admin">
+                  Admin User
+                </Link>
               </Dropdown.Item>
               <Dropdown.Item>
-                <Link to="/#">Signup Comming Soon</Link>
+                <Link className="user-icon-link" to="/#">
+                  Signin
+                </Link>
               </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>

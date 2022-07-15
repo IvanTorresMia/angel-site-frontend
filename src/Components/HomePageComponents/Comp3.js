@@ -2,6 +2,7 @@ import React from "react";
 import comp2Data from "../../Utils/comp2-data";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/esm/Button";
+import { Link } from "react-router-dom"
 
 const Comp3 = () => {
   return (
@@ -34,7 +35,7 @@ const Comp3 = () => {
             <Card.Body>
               <Card.Title>{data.title}</Card.Title>
               <Card.Text>{data.text}</Card.Text>
-              <Button variant="primary">Learn More</Button>
+              <Link to="/programs"><Button variant="primary">Learn More</Button></Link>
             </Card.Body>
           </Card>
         ))}
